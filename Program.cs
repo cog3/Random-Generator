@@ -6,6 +6,7 @@ namespace Random_Generator
     {
         static void Main(string[] args)
         {
+            // test
             Random globalRan = new Random();
             Console.WriteLine(randomInt(6, 6, globalRan));
             Console.WriteLine(randomDouble(8.758, 8.758, globalRan));
